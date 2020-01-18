@@ -1,0 +1,28 @@
+body{
+    background-color: rgba($color: #2897ff, $alpha: 0.1);
+}
+.grey-default{
+    color: #637280;
+}
+.content-container{
+    border-radius: 8px;
+    box-shadow: 0 2px 50px 0 rgba(40, 151, 255, 0.15);
+    background-color: #ffffff;
+    padding: 60px 100px;
+    .custom-form{
+        border-radius: 8px;
+        border: solid 2px #dce0e6;
+        background-color: #ffffff;
+        color: #637280;
+        padding: 6.5px 10px;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+        &:focus{
+            box-shadow: none;
+            border-color: rgba(40, 151, 255, 0.5);
+        }
+        &.text-error{
+            border: solid 1px #ff2636;
+        }
+    }
+}
